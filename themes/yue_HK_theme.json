@@ -1,0 +1,72 @@
+{
+    "$schema": "../schemas/display.json",
+    "name": "yue_HK_default",
+    "tones": [
+        {
+            "label": "t1",
+            "begin": 1,
+            "end": 1,
+            "extender": {
+                "character": "-",
+                "side": "both",
+                "minlength": 4
+            },
+            "color": "#4499BB"
+        },
+        {
+            "label": "t2",
+            "begin": -0.5,
+            "end": 1,
+            "extender": {
+                "character": "-",
+                "side": "both",
+                "minlength": 4
+            },
+            "color": "#EEAA44"
+        },
+        {
+            "label": "t3",
+            "begin": 0,
+            "end": 0,
+            "extender": {
+                "character": "-",
+                "side": "both",
+                "minlength": 4
+            },
+            "color": "#66AA44"
+        },
+        {
+            "label": "t4",
+            "begin": -0.5,
+            "end": -1,
+            "extender": {
+                "character": "-",
+                "side": "both",
+                "minlength": 4
+            },
+            "color": "#884444"
+        },
+        {
+            "label": "t5",
+            "begin": -0.5,
+            "end": 0,
+            "extender": {
+                "character": "-",
+                "side": "both",
+                "minlength": 4
+            },
+            "color": "#6666AA"
+        },
+        {
+            "label": "t6",
+            "begin": -0.5,
+            "end": -0.5,
+            "extender": {
+                "character": "-",
+                "side": "both",
+                "minlength": 4
+            },
+            "color": "#777777"
+        }
+    ]
+}
