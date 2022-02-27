@@ -71,13 +71,17 @@
                     "type": "string",
                     "description": "an easy-to-remember character or name assigned to the tone"
                 },
-                "mnemonics_romanized": {
+                "mnemonics_rom": {
                     "type": "string",
                     "description": "an easy-to-remember character or name assigned to the tone in romanization"
                 },
                 "root": {
                     "type": "string",
                     "description": "the id of a tone before a tone-sandhi process"
+                },
+                "match": {
+                    "type": "string",
+                    "desscription": "a regex expression that matches `rom_alphanum` to determine whether a syllable belongs to this category"
                 },
                 "pitch": {
                     "type": "string",
@@ -108,14 +112,27 @@
                                 "everywhere",
                                 "word-initial",
                                 "word-end",
-                                "word-medial"
+                                "word-medial",
+                                "non-word-end"
                             ]
                         },
                         "before": {
-                            "tone": "string"
+                            "type": "string",
+                            "description": "tone id delimited by pipe (|)"
                         },
                         "after": {
-                            "tone": "string"
+                            "type": "string",
+                            "description": "tone id delimited by pipe (|)"
+                        },
+                        "match": {
+                            "type": "string",
+                            "description": "description of this string"
+                        },
+                        "tonal_domain": {
+                            "enum": [
+                                "word",
+                                "phrase"
+                            ]
                         }
                     },
                     "description": "a description of where the tone-variant is found."

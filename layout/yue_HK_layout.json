@@ -1,0 +1,47 @@
+{
+    "$schema": "../_schemas/layout.json",
+    "name": "yue_HK_default",
+    "extender": {
+        "character": "-",
+        "side": "both",
+        "minlength": 4
+    },
+    "tones": [
+        {
+            "label": "t1",
+            "begin": 1,
+            "end": 1,
+            "color": "#4499BB"
+        },
+        {
+            "label": "t2",
+            "begin": -0.5,
+            "end": 1,
+            "color": "#EEAA44"
+        },
+        {
+            "label": "t3",
+            "begin": 0,
+            "end": 0,
+            "color": "#66AA44"
+        },
+        {
+            "label": "t4",
+            "begin": -0.5,
+            "end": -1,
+            "color": "#884444"
+        },
+        {
+            "label": "t5",
+            "begin": -0.5,
+            "end": 0,
+            "color": "#6666AA"
+        },
+        {
+            "label": "t6",
+            "begin": -0.5,
+            "end": -0.5,
+            "color": "#777777"
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "$schema": "../_schemas/jig.json",
+    "language": {
+        "code": "hak",
+        "name": "Hakka",
+        "name_local": "客家話"
+    },
+    "variant": {
+        "code": "hak_HK",
+        "name": "Hong Kong Hakka",
+        "name_local": "香港客家話"
+    },
+    "tones": [
+        {
+            "id": "t1",
+            "name": "Tone 1",
+            "category": "陰平",
+            "mnemonics": "",
+            "pitch": "13",
+            "phonation": "normal",
+            "root": "t1",
+            "sandhi": [
+                {
+                    "id": "t1x",
+                    "name": "Tone 1 (Sandhi)",
+                    "category": "陰平變調",
+                    "mnemonics": "",
+                    "pitch": "25",
+                    "phonation": "normal",
+                    "root": "t1",
+                    "sandhi": [],
+                    "condition": {
+                        "before": "t2|t3|t5",
+                        "domain": "phrase"
+                    }
+                }
+            ],
+            "condition": {
+                "at": "everywhere"
+            }
+        },
+        {
+            "id": "t2",
+            "name": "Tone 2",
+            "category": "陽平",
+            "mnemonics": "",
+            "pitch": "11",
+            "phonation": "normal",
+            "root": "t2",
+            "sandhi": [],
+            "condition": {
+                "at": "everywhere"
+            }
+        },
+        {
+            "id": "t3",
+            "name": "Tone 3",
+            "category": "上聲",
+            "mnemonics": "",
+            "pitch": "31",
+            "phonation": "normal",
+            "root": "t3",
+            "sandhi": [],
+            "condition": {
+                "at": "everywhere"
+            }
+        },
+        {
+            "id": "t4",
+            "name": "Tone 4",
+            "category": "去聲",
+            "mnemonics": "",
+            "pitch": "21",
+            "phonation": "normal",
+            "root": "t4",
+            "sandhi": [
+                {
+                    "id": "t4x",
+                    "name": "Tone 4 (Sandhi)",
+                    "category": "去聲變調",
+                    "mnemonics": "",
+                    "pitch": "55",
+                    "phonation": "normal",
+                    "root": "t4",
+                    "sandhi": [],
+                    "condition": {
+                        "before": "t2|t3|t5",
+                        "domain": "phrase"
+                    }
+                }
+            ],
+            "condition": {
+                "at": "everywhere"
+            }
+        },
+        {
+            "id": "t5",
+            "name": "Tone 5",
+            "category": "陰入",
+            "mnemonics": "仰",
+            "pitch": "31",
+            "phonation": "normal",
+            "root": "t5",
+            "sandhi": [],
+            "condition": {
+                "at": "everywhere"
+            }
+        },
+        {
+            "id": "t6",
+            "name": "Tone 6",
+            "category": "陽入",
+            "mnemonics": "",
+            "pitch": "53",
+            "phonation": "normal",
+            "root": "t6",
+            "sandhi": [
+                {
+                    "id": "t6x",
+                    "name": "Tone 6 (Sandhi)",
+                    "category": "陽入變調",
+                    "mnemonics": "",
+                    "pitch": "55",
+                    "phonation": "normal",
+                    "root": "t6",
+                    "sandhi": [],
+                    "condition": {
+                        "before": "t2|t3|t5",
+                        "domain": "phrase"
+                    }
+                }
+            ],
+            "condition": {
+                "at": "everywhere"
+            }
+        }
+    ]
+}

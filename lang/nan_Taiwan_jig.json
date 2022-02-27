@@ -1,0 +1,231 @@
+{
+    "$schema": "../_schemas/jig.json",
+    "language": {
+        "code": "nan",
+        "name": "Minnan",
+        "name_local": "閩南語"
+    },
+    "variant": {
+        "code": "nan_TW_Prestiged",
+        "name": "Taiwanese Minnan (Prestiged accent)",
+        "name_local": "台灣閩南語（優勢腔）"
+    },
+    "tones": [
+        {
+            "id": "t1",
+            "name": "Tone 1",
+            "category": "陰平",
+            "mnemonics": "",
+            "pitch": "55",
+            "phonation": "normal",
+            "root": "t1",
+            "sandhi": [
+                {
+                    "id": "t1x",
+                    "name": "Tone 1 (Sandhi)",
+                    "category": "陰平變調",
+                    "mnemonics": "",
+                    "pitch": "25",
+                    "phonation": "normal",
+                    "root": "t1",
+                    "sandhi": [],
+                    "condition": {
+                        "at": "non-word-end"
+                    }
+                }
+            ],
+            "condition": {
+                "at": "everywhere"
+            }
+        },
+        {
+            "id": "t2",
+            "name": "Tone 2",
+            "category": "陰上",
+            "mnemonics": "",
+            "pitch": "53",
+            "phonation": "normal",
+            "root": "t2",
+            "sandhi": [
+                {
+                    "id": "t2x",
+                    "name": "Tone 2 (Sandhi)",
+                    "category": "陰上變調",
+                    "mnemonics": "",
+                    "pitch": "55",
+                    "phonation": "normal",
+                    "root": "t2",
+                    "sandhi": [],
+                    "condition": {
+                        "at": "non-word-end"
+                    }
+                }
+            ],
+            "condition": {
+                "at": "everywhere"
+            }
+        },
+        {
+            "id": "t3",
+            "name": "Tone 3",
+            "category": "陰去",
+            "mnemonics": "",
+            "pitch": "21",
+            "phonation": "normal",
+            "root": "t3",
+            "sandhi": [
+                {
+                    "id": "t3x",
+                    "name": "Tone 3 (Sandhi)",
+                    "category": "陰去變調",
+                    "mnemonics": "",
+                    "pitch": "53",
+                    "phonation": "normal",
+                    "root": "t3",
+                    "sandhi": [],
+                    "condition": {
+                        "at": "non-word-end"
+                    }
+                }
+            ],
+            "condition": {
+                "at": "everywhere"
+            }
+        },
+        {
+            "id": "t4",
+            "name": "Tone 4",
+            "category": "陰入",
+            "mnemonics": "",
+            "pitch": "22",
+            "phonation": "normal",
+            "root": "t4",
+            "sandhi": [
+                {
+                    "id": "t4x",
+                    "name": "Tone 4 (Sandhi)",
+                    "category": "陰入變調",
+                    "mnemonics": "",
+                    "pitch": "53",
+                    "phonation": "normal",
+                    "root": "t1",
+                    "sandhi": [],
+                    "condition": {
+                        "at": "non-word-end"
+                    }
+                }
+            ],
+            "condition": {
+                "at": "everywhere"
+            }
+        },
+        {
+            "id": "t5",
+            "name": "Tone 5",
+            "category": "陽平",
+            "mnemonics": "",
+            "pitch": "24",
+            "phonation": "normal",
+            "root": "t5",
+            "sandhi": [
+                {
+                    "id": "t5x",
+                    "name": "Tone 5 (Sandhi)",
+                    "category": "陽平變調",
+                    "mnemonics": "",
+                    "pitch": "33",
+                    "phonation": "normal",
+                    "root": "t5",
+                    "sandhi": [],
+                    "condition": {
+                        "at": "non-word-end"
+                    }
+                }
+            ],
+            "condition": {
+                "at": "everywhere"
+            }
+        },
+        {
+            "id": "t7",
+            "name": "Tone 7",
+            "category": "陽去",
+            "mnemonics": "",
+            "pitch": "33",
+            "phonation": "normal",
+            "root": "t7",
+            "sandhi": [
+                {
+                    "id": "t7x",
+                    "name": "Tone 7 (Sandhi)",
+                    "category": "陽去變調",
+                    "mnemonics": "",
+                    "pitch": "21",
+                    "phonation": "normal",
+                    "root": "t7",
+                    "sandhi": [],
+                    "condition": {
+                        "at": "non-word-end"
+                    }
+                }
+            ],
+            "condition": {
+                "at": "everywhere"
+            }
+        },
+        {
+            "id": "t8",
+            "name": "Tone 8",
+            "category": "陽入",
+            "mnemonics": "",
+            "pitch": "44",
+            "phonation": "normal",
+            "root": "t8",
+            "sandhi": [
+                {
+                    "id": "t8x",
+                    "name": "Tone 8 (Sandhi)",
+                    "category": "陽入變調",
+                    "mnemonics": "",
+                    "pitch": "33",
+                    "phonation": "normal",
+                    "root": "t8",
+                    "sandhi": [],
+                    "condition": {
+                        "at": "non-word-end"
+                    }
+                },
+                {
+                    "id": "t8xh",
+                    "name": "Tone 8 (Sandhi, -h)",
+                    "category": "陽入變調（喉塞）",
+                    "mnemonics": "",
+                    "pitch": "21",
+                    "phonation": "normal",
+                    "root": "t8",
+                    "sandhi": [],
+                    "condition": {
+                        "at": "non-word-end",
+                        "match": "h$"
+                    }
+                }
+            ],
+            "condition": {
+                "at": "everywhere"
+            }
+        },
+        {
+            "id": "t0",
+            "name": "Unstressed",
+            "category": "輕聲",
+            "mnemonics": "",
+            "pitch": "11",
+            "phonation": "normal",
+            "root": "t0",
+            "sandhi": [],
+            "condition": {
+                "at": "everywhere"
+            }
+        }
+    ]
+}
